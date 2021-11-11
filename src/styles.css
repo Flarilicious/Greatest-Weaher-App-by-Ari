@@ -1,0 +1,74 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.weatherIcon {
+  border-radius: 50%;
+}
+
+.current-hour {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+.current-max-min {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.forecast-temperature {
+  text-align: center;
+}
+
+.forecast-day {
+  text-align: center;
+  font-weight: 600;
+}
+
+.no-link {
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+}
+
+.no-link:hover {
+  color: blue;
+}
+
+#current-city {
+  text-transform: uppercase;
+}
+
+#current-temperature {
+  font-size: 24px;
+}
+
+#current-unit {
+  font-size: 24px;
+}
+
+#change-unit {
+  display: block;
+  float: right;
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+  text-align: right;
+}
